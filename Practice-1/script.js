@@ -9,9 +9,9 @@ btn.addEventListener('click', () => {
             return res.json();
         })
         .then(data => {
-            const user = data[3]; // fjärde användaren i arrayen
+            const user = data[2];
             if (user) {
-                console.log('Användare:', user.name); // använd "name" istället för first_name
+                console.log('Användare:', user.name);
             } else {
                 console.log('Ingen användare på index 3');
             }
