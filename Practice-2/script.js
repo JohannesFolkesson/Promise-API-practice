@@ -29,8 +29,8 @@ function checkWeather(query) {
     windInput.textContent = `${data.current.wind_kph} km/h`;
     humidityInput.textContent = `${data.current.humidity}%`;
 
-    }).catch(error => {
-        console.log('Fel:', error.message);
+    }).catch((error) => {
+        reject(error)
     })
    
   }

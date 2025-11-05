@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Väder App</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        img.weather-icon { width: 100px; height: 100px; }
+        .weather-info { margin-top: 20px; }
+        input { padding: 5px; font-size: 16px; }
+        button { padding: 5px 10px; font-size: 16px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="search">
+        <input type="text" placeholder="Skriv stad">
+        <button id="searchBtn">Sök</button>
+    </div>
+
+    <div class="weather-info">
+        <h2 class="city">Stad, Land</h2>
+        <img src="" alt="Väder ikon" class="weather-icon">
+        <p class="temp">Temperatur: --°C</p>
+        <p class="wind">Vind: -- km/h</p>
+        <p class="humidity">Fuktighet: --%</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
