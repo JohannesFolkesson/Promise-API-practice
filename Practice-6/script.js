@@ -31,3 +31,4 @@ function checkWeather(query) {
          })
     })
 } 
+
